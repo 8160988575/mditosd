@@ -65,8 +65,7 @@
  .swiper1
  {
 
- width: 50%;
- margin-left: 24%;
+
  height: 50%;
 
  }

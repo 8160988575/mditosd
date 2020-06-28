@@ -56,13 +56,14 @@ color:red;
 width: 100%;
 height: 100%;
  flex:1;
+ margin-left: 15px;
 
 }
 
 .founder .about
 {
 
-flex:2;
+flex:3;
 margin-left: 15px;
 
 }
@@ -753,7 +754,7 @@ height: 100%;
 {
 
 
-
+/*
 
 .middle .notice
 {
@@ -785,7 +786,7 @@ float: left;
 margin: 5% 0 5% 12%;
 height: 40%;
 
-}
+} */
 
 
 }
@@ -1109,32 +1110,40 @@ float: right;
 
 
 
-
-
-
-
-  .mainpart
+  .backgrouncolorpart
   {
 
+  width: 50%;
+  margin-left: 25%;
 
-    height: 40%;
-    width: 30%;
+
+  }
+
+
+
+
+  /* .mainpart
+  { */
+
+
+    /* height: 40%;
+    width: 30%; */
     /* //margin: 3% 32% 5% 32%; */
-    float: left;
+    /* float: left; */
     /* background-color: #cfc3a1; */
-  //  background-image: linear-gradient(to right, #EDE574 20%, #E1F5C4 100%);
+  /* //  background-image: linear-gradient(to right, #EDE574 20%, #E1F5C4 100%);
     //  background-image: linear-gradient(to right, #70e1f5 0%, #ffd194 100%);
     //  background-image: linear-gradient(to right, #780206 0%, #061161 51%, #780206 100%);
     //background-image: linear-gradient(to right, #3CA55C 3%, #B5AC49 100%);
       //background-image: linear-gradient(to right, #FF512F 2%, #F09819 100%);
     z-index: 0;
-  //  background-image: linear-gradient(to right, #4CB8C4 7%, #3CD3AD 100%);
+  //  background-image: linear-gradient(to right, #4CB8C4 7%, #3CD3AD 100%); */
 
-  margin-left: 10%;
+  /* margin-left: 10%;
   margin-right: 7%;
   margin-bottom: 2%;
-  margin-top: 2%;
-
+  margin-top: 2%; */
+/*
   }
 
 
@@ -1182,14 +1191,13 @@ float: right;
 
 
 
-  }
+  } */
 
 
  /* sliderpart ////////////////////////////////////////////*/
 
 
  /* ///////// slider1//////////////////  ///////// slider1//////////////////  ///////// slider1////////////////// */
-
 
 
 
