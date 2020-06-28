@@ -1,0 +1,121 @@
+*
+{
+
+  margin: 0;
+  padding: 0;
+
+}
+
+
+
+.mainpart
+{
+
+
+  height: 60%;
+  width: 36%;
+  margin: 2% 32% 2% 32%;
+  background-color: #cfc3a1;
+
+
+}
+
+
+.imgpart
+{
+
+ width: 100%;
+ height: 70%;
+ //background-color: yellow;
+
+
+}
+
+.contantpart
+{
+
+  width: 90%;
+ height: 25%;
+ background-color: green;
+ margin-left: 5%;
+ margin-bottom: 5%;
+}
+
+
+.imgpartmore
+{
+
+  width: 90%;
+  height: 80%;
+  //background-color: black;
+  margin-left: 5%;
+ position: relative;
+ top: 10%;
+
+
+}
+
+.imgpartmore img
+{
+
+width: 100%;
+height: 100%;
+
+
+}
+
+
+
+
+
+
+/*
+.mainpart
+{
+
+ width:40%;
+ height: 50%;
+ margin:3% 30% 3% 30%;
+ background-color: red;
+
+
+}
+
+.imgpart
+{
+
+  width: 100%;
+  height: 70%;
+
+}
+
+
+.contantpart
+{
+
+width: 100%;
+height: 30%;
+background-color: yellow;
+
+}
+
+
+.imgpartmore
+{
+   width: 90%;
+  height: 90%;
+  background-color: grey;
+  padding: 5%;
+
+
+
+
+}
+
+.imgpartmore img
+{
+
+   height: 100%;
+   width:100%;
+
+} */

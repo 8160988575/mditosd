@@ -1,0 +1,105 @@
+.extra
+{
+
+ height: 12%;
+
+
+
+
+}
+
+
+
+
+
+
+
+.qandapart
+{
+
+width: 97%;
+background-color: #fffbe6;
+border-radius: 30px;
+/* height: 30%; */
+border: 2px solid #720d5d;
+/* margin-top: 10%; */
+margin-bottom: 10%;
+padding-bottom: 10%;
+margin-top: 10%;
+margin-left: 1%;
+
+}
+
+
+.contentheading
+{
+
+//position: relative;
+text-align: center;
+font-size: 25px;
+color:red;
+
+
+}
+
+.contentheading h4
+{
+
+margin: 20% 0% 10% 0%;
+background-color: #4e0d3a;
+color:white;
+border-radius: 15px;
+padding: 10px;
+font-family: cursive;
+font-variant: small-caps;
+font-stretch: extra-condensed;
+font-kerning: auto;
+font-variant-caps: small-caps;
+
+}
+
+.trueupper
+{
+
+  position:absolute;
+  width: 100%;
+  height: 18%;
+  /* background-color: #720d5d; */
+  background-color: #e30425;
+  top: 0;
+z-index: 0;
+/* display: none; */
+border-bottom-right-radius: 20px;
+
+}
+
+
+
+
+@media screen and (min-width:900px)
+{
+
+
+.extra
+{
+
+ height: 18%;
+
+}
+
+.qandapart
+{
+
+  padding-top: 0;
+  padding-bottom: 5%;
+
+}
+.contentheading h4
+{
+
+margin: 5% 0% 5% 0%;
+
+}
+
+
+}

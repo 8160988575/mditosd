@@ -1,0 +1,355 @@
+*
+{
+
+  margin:0;
+  padding: 0;
+
+
+}
+
+
+body
+{
+
+
+  //background-color: #fedbd0;
+  /* background-color: #ffcfdf;
+  background-image: linear-gradient(315deg, #ffcfdf 0%, #b0f3f1 74%); */
+  /* background-color: #9eabe4;
+background-image: linear-gradient(315deg, #9eabe4 0%, #77eed8 74%); */
+background-color: #ffcfdf;
+background-image: linear-gradient(315deg, #ffcfdf 0%, #b0f3f1 74%);
+
+
+
+
+}
+
+
+.header
+{
+
+  height: 12%;
+   width:100%;
+
+   //text-align: center;
+   // background-image: linear-gradient(to right, #73C8A9 7%, #373B44 100%);
+    // background-image: linear-gradient(to right, #70e1f5 0%, #ffd194 100%);
+  //  background-image: linear-gradient(to right, #780206 7%, #061161 100%);
+   //background-image: linear-gradient(to right, #3CA55C 3%, #B5AC49 100%);
+   //background-image: linear-gradient(to right, #FF512F 2%, #F09819 100%);
+  // background-image: linear-gradient(to right, #4B79A1 7%, #283E51 100%);
+  //background-image: linear-gradient(to right, #34e89e 7%, #0f3443 100%);
+  // background-image: linear-gradient(to right, #4CB8C4 7%, #3CD3AD 100%);
+   //background-image: linear-gradient(to right, #ff9068 0%,#ff4b1f  100%);
+
+   //background-image: linear-gradient(to right, #D1913C 0%, #FFD194 100%);
+   //background-image:linear-gradient(to right, #eacda3 7%, #d6ae7b 100%);
+ //  background-image: linear-gradient(to right, #D1913C 0%, #FFD194 50%);
+
+
+/* border-bottom: 2px solid yellow; */
+
+
+
+}
+.header h2
+{
+   width: 70%;
+   padding-top: 2%;
+   height: 100%;
+   text-align: center;
+
+}
+
+
+.header img
+{
+   width: 20%;
+   position: absolute;
+   top: 0px;
+   right: 0px;
+   height: 9%;
+ }
+
+
+
+
+
+  .searchpart
+  {
+
+  /* position: fixed; */
+  top: 15%;
+  height: 6%;
+  /* background-color: red; */
+
+  width: 100%;
+  z-index: 1;
+ // background-image: linear-gradient(to right, #73C8A9 7%, #373B44 100%);
+  //background-image: linear-gradient(to right, #4B79A1 7%, #283E51 100%);
+
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  /* border-top-left-radius: 10px;
+  border-top-right-radius: 10px; */
+
+  //border-top: 1px solid blue;
+
+  }
+
+  .searchpart i
+  {
+
+    width: 5%;
+    position: relative;
+    top: 20%;
+    height: 100%;
+    font-size: 20px;
+    left: 1%;
+
+  }
+
+
+  .searchpart [type=text]
+  {
+   position: relative;
+    width: 90%;
+    height: 60%;
+   top:10%;
+    left: 2.5%;
+    text-align: center;
+    /* font-size: 15px;
+    border-radius: 15px; */
+    color:blue;
+    opacity: 0.5;
+    border-radius: 15px;
+    border:none;
+      background-color: #442c2e;
+      color:white;
+  }
+
+.topictital
+{
+text-align:center;
+/* background-color:#5d1049; */
+/* background-color: #ffcfdf; */
+background-color: none;
+opacity:0.8;
+padding:10px;
+width:80%;
+margin:0% 10% 0% 0%;
+/* border-radius:50px; */
+font-size:25px;
+color:black;
+font-weight: bold;
+border: 2px dashed #ffcfdf;
+
+}
+
+
+
+   .container
+   {
+
+margin-top: 0%;
+  width: 60%;
+  margin-left: 22%;
+  margin-right: 20%;
+
+  /* background-color: #ffcfdf;
+background-image: linear-gradient(315deg, #ffcfdf 0%, #b0f3f1 74%); */
+   /* border-top-left-radius: 130px;
+    border-top-right-radius: -50px;
+   border-bottom-right-radius: 130px; */
+    padding-top: 15%;
+    font-family: cursive;
+
+
+  }
+
+
+  .category
+  {
+
+   width: 100%;
+   /* margin-left: 5% */
+   /* padding-top: 15%; */
+
+
+  }
+
+
+  .category ul
+  {
+     padding-bottom: 15%;
+     /* padding-top: 10%; */
+     margin-top: 10%;
+     list-style-type: none;
+     margin-left: 10%;
+
+
+
+  }
+
+
+.category ul li
+{
+
+  padding: 5px;
+  width: 100%;
+  /* background-color: white; */
+  font-size: 20px;
+  /* color:#5d1049; */
+  color:white;
+
+}
+
+
+/*
+  .category ul li
+  {
+     text-decoration: none;
+     list-style: none;
+    //padd-top: 20px;
+    text-align: center;
+    width: 50%;
+
+    margin-bottom: 20%;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 10px;
+
+    // background-image: linear-gradient(to right, #73C8A9 7%, #373B44 100%);
+  //    background-image: linear-gradient(to right, #70e1f5 0%, #ffd194 100%);
+  //  background-image: linear-gradient(to right, #780206 7%, #061161 100%);
+    //background-image: linear-gradient(to right, #3CA55C 3%, #B5AC49 100%);
+    //background-image: linear-gradient(to right, #FF512F 2%, #F09819 100%);
+    //background-image: linear-gradient(to right, #4B79A1 7%, #283E51 100%);
+   //background-image: linear-gradient(to right, #34e89e 7%, #0f3443 100%);
+   // background-image: linear-gradient(to right, #4CB8C4 7%, #3CD3AD 100%);
+    //background-image: linear-gradient(to right, #ff9068 0%,#ff4b1f  100%);
+
+    //background-image: linear-gradient(to right, #D1913C 0%, #FFD194 100%);
+    //background-image:linear-gradient(to right, #eacda3 7%, #d6ae7b 100%);
+  //  background-image: linear-gradient(to right, #D1913C 0%, #FFD194 50%);
+    background-image: linear-gradient(to right, #fedbd0 7%, #442c2e 90%);
+//background-color: #fedbd0;
+//opacity: 0.7;
+color:white;
+
+
+  } */
+
+
+ .category ul li i
+ {
+
+  width: 15%;
+  color: black;
+  font-size: 20px;
+  margin-left: 5%;
+
+ }
+
+  .category ul li a
+  {
+
+    text-decoration: none;
+    /* color:#5d1049; */
+
+  color:black;
+  font-weight: bold;
+    width: 80%;
+    margin-left: 10%;
+
+
+
+  }
+
+
+   // future vadanu coding
+   .text22
+   {
+
+
+
+
+   }
+
+  .infoheading
+  {
+
+     margin: 5%;
+     margin-bottom: 0px;
+     text-align: center;
+
+  }
+
+  .textarea
+  {
+
+     margin: 5%;
+     background-color: white;
+
+
+  }
+
+  .textarea [type=text]
+  {
+
+     width:100%;
+     height: 15%;
+     border: none;
+     text-align: center;
+
+  }
+
+  .textarea [type=submit]
+  {
+
+     width: 40%;
+     margin: 30%;
+     margin-bottom: 3%;
+     margin-top: 5%;
+  }
+
+
+    @media screen and (min-width:900px)
+    {
+
+  .header
+  {
+
+  height: 8%;
+
+
+  }
+
+ .header img
+ {
+
+ width: 10%;
+ margin-top: 1%;
+ right: 3%;
+
+ }
+
+
+.container
+{
+
+  width: 40%;
+  margin-left: 30%;
+  padding-top: 0%;
+  padding-bottom: 5%;
+  border-radius: 10px;
+  margin-top: 3%;
+
+}
+
+
+
+    }

@@ -1,0 +1,304 @@
+*
+{
+
+  margin: 0px;
+  padding: 0px;
+
+}
+
+body
+{
+
+background-color: #f4f4f4;
+
+}
+
+.header
+{
+
+  height: 15%;
+   width:100%;
+
+   //text-align: center;
+   // background-image: linear-gradient(to right, #73C8A9 7%, #373B44 100%);
+    // background-image: linear-gradient(to right, #70e1f5 0%, #ffd194 100%);
+  //  background-image: linear-gradient(to right, #780206 7%, #061161 100%);
+   //background-image: linear-gradient(to right, #3CA55C 3%, #B5AC49 100%);
+   //background-image: linear-gradient(to right, #FF512F 2%, #F09819 100%);
+   background-image: linear-gradient(to right, #4B79A1 7%, #283E51 100%);
+  //background-image: linear-gradient(to right, #34e89e 7%, #0f3443 100%);
+  // background-image: linear-gradient(to right, #4CB8C4 7%, #3CD3AD 100%);
+   //background-image: linear-gradient(to right, #ff9068 0%,#ff4b1f  100%);
+
+   //background-image: linear-gradient(to right, #D1913C 0%, #FFD194 100%);
+   //background-image:linear-gradient(to right, #eacda3 7%, #d6ae7b 100%);
+ //  background-image: linear-gradient(to right, #D1913C 0%, #FFD194 50%);
+
+
+
+
+
+
+}
+.header h2
+{
+   width: 70%;
+   padding-top: 2%;
+   height: 100%;
+   text-align: center;
+
+}
+
+
+.header img
+{
+   width: 30%;
+   position: absolute;
+   top: 0px;
+   right: 15px;
+   height: 15%;
+ }
+
+
+
+
+ .searchpart
+ {
+
+ /* position: fixed; */
+ top: 15%;
+ height: 6%;
+ /* background-color: red; */
+ width: 100%;
+ z-index: 1;
+// background-image: linear-gradient(to right, #73C8A9 7%, #373B44 100%);
+ background-image: linear-gradient(to right, #4B79A1 7%, #283E51 100%);
+
+ border-bottom-left-radius: 10px;
+ border-bottom-right-radius: 10px;
+ /* border-top-left-radius: 10px;
+ border-top-right-radius: 10px; */
+
+ border-top: 1px solid blue;
+
+ }
+
+ .searchpart i
+ {
+
+   width: 5%;
+   position: relative;
+   top: 20%;
+   height: 100%;
+   font-size: 20px;
+   left: 1%;
+
+ }
+
+
+ .searchpart [type=text]
+ {
+  position: relative;
+   width: 90%;
+   height: 60%;
+  top:10%;
+   left: 2.5%;
+   text-align: center;
+   /* font-size: 15px;
+   border-radius: 15px; */
+   color:blue;
+   opacity: 0.7;
+   border-radius: 15px;
+   border:none;
+ }
+
+
+
+ .container
+ {
+
+
+
+ background-color: #f4f4f4;
+
+}
+
+
+.category
+{
+
+ width: 100%;
+
+
+}
+
+
+.category ul
+{
+   padding-bottom: 5%;
+   padding-top: 5%;
+
+
+
+}
+
+
+.category ul li
+{
+   text-decoration: none;
+   list-style: none;
+  //padd-top: 20px;
+  text-align: center;
+  width: 50%;
+
+  margin-bottom: 10%;
+  margin-left: 25%;
+  margin-right: 25%;
+  font-size: 25px;
+  padding: 10px;
+  border-radius: 10px;
+
+  // background-image: linear-gradient(to right, #73C8A9 7%, #373B44 100%);
+    background-image: linear-gradient(to right, #70e1f5 0%, #ffd194 100%);
+ //  background-image: linear-gradient(to right, #780206 7%, #061161 100%);
+  //background-image: linear-gradient(to right, #3CA55C 3%, #B5AC49 100%);
+  //background-image: linear-gradient(to right, #FF512F 2%, #F09819 100%);
+  //background-image: linear-gradient(to right, #4B79A1 7%, #283E51 100%);
+ //background-image: linear-gradient(to right, #34e89e 7%, #0f3443 100%);
+ // background-image: linear-gradient(to right, #4CB8C4 7%, #3CD3AD 100%);
+  //background-image: linear-gradient(to right, #ff9068 0%,#ff4b1f  100%);
+
+  //background-image: linear-gradient(to right, #D1913C 0%, #FFD194 100%);
+  //background-image:linear-gradient(to right, #eacda3 7%, #d6ae7b 100%);
+//  background-image: linear-gradient(to right, #D1913C 0%, #FFD194 50%);
+
+
+
+}
+
+.category ul li a
+{
+
+  text-decoration: none;
+
+}
+
+
+ // future vadanu coding
+ .text22
+ {
+
+
+
+
+ }
+
+.infoheading
+{
+
+   margin: 5%;
+   margin-bottom: 0px;
+   text-align: center;
+
+}
+
+.textarea
+{
+
+   margin: 5%;
+   background-color: white;
+
+
+}
+
+.textarea [type=text]
+{
+
+   width:100%;
+   height: 15%;
+   border: none;
+   text-align: center;
+
+}
+
+.textarea [type=submit]
+{
+
+   width: 40%;
+   margin: 30%;
+   margin-bottom: 3%;
+   margin-top: 5%;
+}
+
+
+@media screen and (max-height:400px)
+{
+
+
+
+
+.searchpart [type=text]
+{
+
+height: 100%;
+font-size: 10px;
+top: 0;
+position: relative;
+
+}
+
+.searchpart i
+{
+
+height: 100%;
+font-size: 10px;
+top: 0;
+position: relative;
+
+}
+
+}
+
+
+
+
+@media screen and (min-width:900px)
+{
+
+  .container
+  {
+
+  width: 50%;
+  margin: 0% 25%;
+
+  background-color: #f4f4f4;
+
+ }
+
+.header
+{
+
+   height: 20%;
+
+
+}
+.header h2
+{
+
+width:90%;
+
+}
+
+.header img
+{
+
+
+   height: 20%;
+   width: 10%;
+
+}
+
+
+
+
+}
