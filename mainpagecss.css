@@ -235,7 +235,7 @@ left: -3%;;
 {
 
 content: '';
-width: 94%;
+width: 94vw;
 height: 0.5%;
 background-color: #63d471;
 background-image: linear-gradient(315deg, #63d471 0%, #233329 74%);
@@ -788,6 +788,15 @@ height: 40%;
 
 } */
 
+.mainpart
+{
+
+
+  display: inline-block;
+  width: 40%;
+
+}
+
 
 }
 
@@ -1110,7 +1119,65 @@ float: right;
 
 
 
-  .backgrouncolorpart
+
+.mainpart
+{
+
+
+  width: 40%;
+  margin: 0;
+ display:inline-flex;
+margin-left: 5%;
+height: 40%;
+margin-bottom: 0;
+/* background-color: red; */
+margin-top: 50px;
+border: 1px solid green;
+padding: 10px;
+
+
+}
+
+.imgpart
+{
+
+  height: 100%;;
+  width: 100%;
+  margin-right: 0;
+
+}
+
+.contantpart
+{
+
+  margin-left: 0;
+
+}
+
+
+.customerreview iframe
+{
+
+  width: 40%;
+  height: 40%;
+  margin-left: 30%;
+
+}
+
+.founder
+{
+
+/* justify-content:center; */
+width: 30%;
+margin-bottom: 5%;
+
+
+
+}
+
+
+
+  /* .backgrouncolorpart
   {
 
   width: 50%;
@@ -1118,6 +1185,13 @@ float: right;
 
 
   }
+
+  .lscreen
+  {
+
+  background-color: #181818;
+
+  } */
 
 
 

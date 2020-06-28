@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="swiper/css/swiper.min.css">
 
   <!-- Demo styles -->
-  <style>
+  <style type="">
   *
   {
   margin: 0;
@@ -29,7 +29,7 @@
 
 
       height: 10%;
-  background-color: red;
+  /* background-color: red; */
     }
 
 
@@ -41,6 +41,19 @@
 
 
   }
+
+  @media screen and (min-width:900px)
+  {
+
+    .swiper4 {
+    height: 20%;
+    width: 40%;
+    margin-top: 10%;
+
+    }
+
+
+ }
   </style>
 </head>
 
@@ -71,7 +84,7 @@
       autoplay: {
          delay: 2000,
          disableOnInteraction: true,},
-      slidesPerView: 2.5,
+      slidesPerView: 3.5,
       spaceBetween: 5,
 
 

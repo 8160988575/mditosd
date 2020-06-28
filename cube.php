@@ -64,6 +64,26 @@
 
 }
 
+@media screen and (min-width:900px)
+{
+
+
+  .swiper3{
+
+  height:35%;
+
+
+  }
+
+  .middlepart
+  {
+
+   width: 70%;
+   margin-left: 15%;
+
+  }
+}
+
   </style>
 </head>
 

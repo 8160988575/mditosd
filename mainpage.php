@@ -223,6 +223,14 @@ $result22=mysqli_query($con,$qry2223);
   }
      ?>
 
+		 <div class="extraparts">
+
+		 </div>
+
+
+
+<div class="blockingpart">
+
 
 
 
@@ -271,9 +279,9 @@ $result22=mysqli_query($con,$qry2223);
 
 
 
+</div>
 
-
-<div class="extraparts">
+<div class="extraparts" style="margin-top:5%;">
 
 </div>
 
@@ -360,7 +368,7 @@ include 'scrollerslider.php';
 	<div class="founder">
 		<img src="" alt="">
 		<div class="about">
-			<p>Founder Name</p>
+			<p>Founder Name is the main thing over here Founder Name is the main thing over here Founder Name is the main thing over here</p>
 			<p>About</p>
 
 		</div>
