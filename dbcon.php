@@ -16,8 +16,8 @@ if(!$con) {
 if(!$con) {
 
 
-   $con=@mysqli_connect('sql12.freesqldatabase.com','sql12348338','pnkSCVtk3e','sql12348338');
-
+   // $con=@mysqli_connect('sql12.freesqldatabase.com','sql12348338','pnkSCVtk3e','sql12348338');
+  $con=@mysqli_connect('148.72.232.1','checkinguser','checkinguser','checkingdb');
 
 
 }
