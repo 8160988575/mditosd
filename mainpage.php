@@ -46,7 +46,7 @@ $result22=mysqli_query($con,$qry2223);
 
             <div class="middle">
                 <ul style="list-style-type:none;">
-                      <li class="notice">Name Of School</li>
+                      <li class="notice">Name Of Assoc.</li>
                       <a href="mpagesearching.php"><li class="search"><i class="fa fa-search" aria-hidden="true" style="margin-right:5%;"></i>Search Here!!</li></a>
                </ul>
             </div>
@@ -325,7 +325,7 @@ include 'scrollerslider.php';
 
 <div class="writequestion">
 
-<form class="" action="" method="post">
+<form class="" action="#" method="post">
 
 	<input  type="text" name="question" value="" placeholder="Write Your Question..." required>
 	<input type="text" name="name" value="" placeholder="Write Your Name...">

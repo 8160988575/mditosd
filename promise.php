@@ -75,6 +75,7 @@ border:1px solid gray;
 margin: 5px;
 color:white;
 padding: 10px;
+line-height: 30px;
 
 
 
@@ -94,7 +95,7 @@ padding: 10px;
 
   <ul>
   	<li>Cement We Use....</li>
-  	<li>Previous Site's That are Working Great</li>
+  	<li>Previous Site's That are Working Great and we will working on us continously</li>
   	<li>Maintenence</li>
   	<li>Payment Method</li>
   </ul>

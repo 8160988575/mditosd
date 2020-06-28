@@ -74,10 +74,10 @@ $result=mysqli_query($con,$qry);
     <div class="category">
 
       <ul>
-        <li><i class="far fa-clipboard"></i><a href="selectingalter.php?cat=note">Note's</a></li>
-        <li><i class="fab fa-youtube"></i><a href="selectingalter.php?cat=video">Video</a></li>
+        <li><i class="far fa-clipboard"></i><a href="selectingalter.php?cat=note">Info. Part</a></li>
+        <li><i class="fab fa-youtube"></i><a href="selectingalter.php?cat=video">Review's</a></li>
         <li><i class="fas fa-question-circle"></i><a href="selectingalter.php?cat=qanda">Q and A</a></li>
-        <li><i class="far fa-images"></i><a href="selectingalter.php?cat=photo">Photo</a></li>
+        <li><i class="far fa-images"></i><a href="selectingalter.php?cat=photo">Photo's</a></li>
         <li><i class="fas fa-book"></i><a href="alledit.php">All</a></li>
 
 
