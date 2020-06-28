@@ -53,11 +53,9 @@
     height: 0.5%;
     background-color: #63d471;
     background-image: linear-gradient(315deg, #63d471 0%, #233329 74%);
-
     display: block;
     margin-left: 0;
     margin-bottom: 5%;
-
 
     }
 
@@ -73,7 +71,7 @@
 
  }
 
-		}
+}
 
 
   </style>
@@ -147,48 +145,6 @@
 
 </div>
 
-
-
-    <!-- Swiper -->
-    <div class="swiper-container swiper2">
-      <div class="swiper-wrapper wrapper2">
-
-				<div class="swiper-slide slide2" style="background-image:url(uploads/.5ee7b6947f5c88.54567421.jpg)"></div>
-				<div class="swiper-slide slide2" style="background-image:url(uploads/.5ee7b6947f5c88.54567421.jpg)"></div>
-				<div class="swiper-slide slide2" style="background-image:url(uploads/.5ee7b6947f5c88.54567421.jpg)"></div>
-				<div class="swiper-slide slide2" style="background-image:url(uploads/.5ee7b6947f5c88.54567421.jpg)"></div>
-				<div class="swiper-slide slide2" style="background-image:url(uploads/.5ee7b6947f5c88.54567421.jpg)"></div>
-				<div class="swiper-slide slide2" style="background-image:url(uploads/.5ee7b6947f5c88.54567421.jpg)"></div>
-				<div class="swiper-slide slide2" style="background-image:url(uploads/.5ee7b6947f5c88.54567421.jpg)"></div>
-
-
-      </div>
-      <!-- Add Pagination -->
-      <!-- <div class="swiper-pagination pagination2"></div> -->
-    </div>
-
-
-
-    <script>
-      var swiper2 = new Swiper('.swiper2', {
-        effect: 'coverflow',
-
-        centeredSlides: true,
-        slidesPerView: 'auto',
-        autoplay: {
-           delay: 3000,
-           disableOnInteraction: true,
-         },
-        coverflowEffect: {
-          rotate: 50,
-          stretch: 0,
-          depth: 100,
-          modifier: 1,
-          slideShadows: true,
-        },
-
-      });
-    </script>
 
 
 

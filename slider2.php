@@ -49,7 +49,7 @@ height: 20%;
 .swiper-slide
 {
 width: 50%;
-height: 30%;
+height: %;
 background-size: cover;
 background-position: center;
 
