@@ -68,7 +68,7 @@ $result22=mysqli_query($con,$qry2223);
 
 </div>
 
-<div class="lscreen">
+
 
 
 <div class="backgrouncolorpart">
@@ -400,7 +400,7 @@ include 'scrollerslider.php';
 
 
 </div>
-</div>
+
 
 
 

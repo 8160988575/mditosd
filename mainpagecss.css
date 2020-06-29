@@ -190,6 +190,7 @@ color:red;
   height: 30%;
   margin-left: 5%;
 
+
 }
 
 
@@ -389,7 +390,7 @@ box-shadow: -4px 2.5px 2px 4px rgba(0, 0, 0, 0.5);
 } */
 
 
-.logo::before
+/* .logo::before
 {
  /* position: absolute;
    content: '';
@@ -400,7 +401,7 @@ box-shadow: -4px 2.5px 2px 4px rgba(0, 0, 0, 0.5);
     top: 0;
     box-shadow: -4px 2.5px 2px 2px rgba(0, 0, 0, 0.3); */
 
-    position: absolute;
+    /* position: absolute;
     	content: "harh";
     	z-index:-1;
     	bottom: 5px;
@@ -413,7 +414,7 @@ box-shadow: -4px 2.5px 2px 4px rgba(0, 0, 0, 0.5);
     	box-shadow: 0 0 30px 17px #486685;
     	border-radius: 100px/10px;
 
-}
+} */
 
 
 .logo img
