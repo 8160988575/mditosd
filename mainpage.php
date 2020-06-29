@@ -322,7 +322,7 @@ include 'scrollerslider.php';
 </div>
 
 
-<div class="writequestion">
+<!-- <div class="writequestion" style="display:none;">
 
 <form class="" action="#" method="post">
 
@@ -333,7 +333,7 @@ include 'scrollerslider.php';
 
 </form>
 
-</div>
+</div> -->
 
 
 <div class="extraparts" style="margin-top:10%;margin-bottom:0%">

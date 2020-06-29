@@ -11,13 +11,6 @@
 
   <!-- Demo styles -->
   <style type="">
-  *
-  {
-  margin: 0;
-  padding: 0;
-
-  }
-
 
 
     .swiper4 {

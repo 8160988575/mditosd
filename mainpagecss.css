@@ -750,62 +750,6 @@ height: 100%;
 
 
 
-
-/* @media screen and (min-width:700px)
-{ */
-
-
-/*
-
-.middle .notice
-{
-
-margin-bottom: 0;
-
-}
-
-.left i
-{
-
-margin-top: 10%;
-
-}
-
-.logo img
-{
-
-height: 120%;
-margin-left: 5%;
-
-}
-
-.mainpart
-{
-
-width: 30%;
-float: left;
-margin: 5% 0 5% 12%;
-height: 40%;
-
-} */
-
-/* .mainpart
-{
-
-
-  display: inline-block;
-  width: 40%;
-
-} */
-
-
-}
-
-
-
-
-
-
 @media screen and (min-width:900px)
 {
 
@@ -892,39 +836,6 @@ float: right;
 }
 
 
-
-
-
-
-/*
-
-            .logo img
-            {
-               //width:30%;
-               width:50%;
-               height: 100%;
-               float:right;
-
-            }
-
-            .upper
-            {
-               height: 50%;
-
-            }
-
-
-
-          .searchpart
-          {
-
-          position: fixed;
-          top: 13%;
-          height: 7%;
-          //background-color: green;
-
-
-          } */
 
 
 
@@ -1175,106 +1086,6 @@ margin-bottom: 5%;
 
 
 }
-
-
-
-  /* .backgrouncolorpart
-  {
-
-  width: 50%;
-  margin-left: 25%;
-
-
-  }
-
-  .lscreen
-  {
-
-  background-color: #181818;
-
-  } */
-
-
-
-
-  /* .mainpart
-  { */
-
-
-    /* height: 40%;
-    width: 30%; */
-    /* //margin: 3% 32% 5% 32%; */
-    /* float: left; */
-    /* background-color: #cfc3a1; */
-  /* //  background-image: linear-gradient(to right, #EDE574 20%, #E1F5C4 100%);
-    //  background-image: linear-gradient(to right, #70e1f5 0%, #ffd194 100%);
-    //  background-image: linear-gradient(to right, #780206 0%, #061161 51%, #780206 100%);
-    //background-image: linear-gradient(to right, #3CA55C 3%, #B5AC49 100%);
-      //background-image: linear-gradient(to right, #FF512F 2%, #F09819 100%);
-    z-index: 0;
-  //  background-image: linear-gradient(to right, #4CB8C4 7%, #3CD3AD 100%); */
-
-  /* margin-left: 10%;
-  margin-right: 7%;
-  margin-bottom: 2%;
-  margin-top: 2%; */
-/*
-  }
-
-
-  .imgpart
-  {
-
-   width: 100%;
-   height: 75%;
-   //background-color: yellow;
-
-
-  }
-
-  .contantpart
-  {
-
-    width: 90%;
-   height: 25%;
-   //background-color: green;
-   margin-left: 5%;
-
-  }
-
-
-  .imgpartmore
-  {
-
-    width: 96%;
-    height: 90%;
-    //background-color: black;
-    margin-left: 2%;
-   position: relative;
-   top: 5%;
- z-index: 0;
-
-
-  }
-
-  .imgpartmore img
-  {
-
-  width: 100%;
-  height: 100%;
-   z-index: 0;
-
-
-
-  } */
-
-
- /* sliderpart ////////////////////////////////////////////*/
-
-
- /* ///////// slider1//////////////////  ///////// slider1//////////////////  ///////// slider1////////////////// */
-
-
 
 
 }
