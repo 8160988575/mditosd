@@ -17,7 +17,7 @@
 <body>
 
   <div class="header">
-    <h2>Mstudy</h2>
+    <h2>Assos.</h2>
     <img src="harmeety round.jpg" alt="">
   </div>
 

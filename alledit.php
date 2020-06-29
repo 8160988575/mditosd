@@ -215,7 +215,7 @@ iframe
 
 
   <div class="header4224">
-    <h2 style="color:white">MStudy BY VGEC</h2>
+    <h2 style="color:white">Association Name</h2>
     <img src="harmeety round.jpg" alt="">
   </div>
 

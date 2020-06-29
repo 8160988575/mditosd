@@ -238,7 +238,7 @@ margin-top: 3%;
 
 
   <div class="header223">
-    <h2>MStudy BY VGEC</h2>
+    <h2>Association Name:</h2>
     <img src="harmeety round.jpg" alt="">
   </div>
 

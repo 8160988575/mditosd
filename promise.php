@@ -57,11 +57,11 @@ counter-reset: section22;
 
 counter-increment: section22;
 /* content: "Section :counter("section22")"; */
-content: "   "counter(section22)"  ";
+content: ""counter(section22)"";
 background-color: black;
 margin-right:  20px;
 margin-left: 10px;
-padding: 10px;
+padding: 7px;
 border-radius: 50%;
 border:1px solid gray;
 

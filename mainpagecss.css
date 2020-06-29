@@ -750,8 +750,8 @@ height: 100%;
 
 
 
-@media screen and (min-width:700px)
-{
+/* @media screen and (min-width:700px)
+{ */
 
 
 /*
@@ -788,14 +788,14 @@ height: 40%;
 
 } */
 
-.mainpart
+/* .mainpart
 {
 
 
   display: inline-block;
   width: 40%;
 
-}
+} */
 
 
 }

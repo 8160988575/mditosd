@@ -32,7 +32,7 @@ $result=mysqli_query($con,$qry);
 <body>
 
   <div class="header">
-    <h2>Different Area</h2>
+    <h2>Your Site's</h2>
     <img src="harmeety round.jpg" alt="">
   </div>
 

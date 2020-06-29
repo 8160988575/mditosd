@@ -76,7 +76,7 @@ $result2=mysqli_query($con,$qry2);
 
 
   <div class="header">
-    <h2>Different Area</h2>
+    <h2>Choose Your Perfect</h2>
     <img src="harmeety round.jpg" alt="">
   </div>
   <div class="searchpart">

@@ -162,12 +162,11 @@ $result22=mysqli_query($con,$qry2223);
        <a href="#" class="btn-close" onclick="closesidemenu()">&times;</a>
 
      <div class="before">     <a href="finallogin.php"><i class="fas fa-user-circle"></i></a><div class="login"><a href="finallogin.php"><?php if(isset($_COOKIE['name'])){echo $_COOKIE['name'];}else {  echo "Login/SignUp";} ?></a></div></div>
-     <div class="after">   <i class="fab fa-phoenix-framework"></i><a href="addingnew.php">Harmeetian's</a></div>
+     <div class="after">   <i class="fab fa-phoenix-framework"></i><a href="addingnew.php">Owner's</a></div>
      <div class="after">    <i class="fas fa-concierge-bell"></i><a href="weserve.php">We Serve</a></div>
-     <div class="after">    <i class="fas fa-layer-group"></i><a href="future.php">Your demand's</a></div>
-     <div class="after">    <i class="fas fa-history"></i><a href="finalpast.php">Your Booked Table</a></div>
-     <div class="after">    <i class="fab fa-viber"></i>  <a href="help.html">Help</a></div>
-     <div class="after">    <i class="far fa-dizzy"></i>  <a href="moreinfo.php">about</a></div>
+     <div class="after">    <i class="fas fa-layer-group"></i><a href="future.php">Demamd Us...</a></div>
+     <!-- <div class="after">    <i class="fab fa-viber"></i>  <a href="help.html">Help</a></div> -->
+     <div class="after">    <i class="far fa-dizzy"></i>  <a href="moreinfo.php">About</a></div>
 
    </div>
 
