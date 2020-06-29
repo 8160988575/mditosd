@@ -258,7 +258,7 @@ body
  background-color: #7fcec5;
  background-image: linear-gradient(315deg, #7fcec5 0%, #14557b 74%);
 
-position: relative;
+/* position: relative; */
 
 }
 
@@ -269,7 +269,7 @@ position: relative;
 background-color: #181818;
 padding-top: 30px;
 /* overflow: hidden; */
-position: relative;
+/* position: relative; */
 }
 
 .extra
