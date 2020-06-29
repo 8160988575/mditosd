@@ -358,7 +358,7 @@ include 'scrollerslider.php';
 	<div class="founder">
 		<img src="" alt="">
 		<div class="about">
-			<p>Founder Name</p>
+			<p style="font-family:cursive;color:red">Founder Name</p>
 			<p>About</p>
 
 		</div>
@@ -367,7 +367,7 @@ include 'scrollerslider.php';
 	<div class="founder">
 		<img src="" alt="">
 		<div class="about">
-			<p>Founder Name is the main thing over here Founder Name is the main thing over here Founder Name is the main thing over here</p>
+	<p style="font-family:cursive;color:red">Founder Name</p>
 			<p>About</p>
 
 		</div>

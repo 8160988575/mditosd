@@ -38,6 +38,7 @@
 
 content: "WE KNOW WHAT YOU EXPECT FROM US AND WE GUARANTEE YOU FOR YOUR ONE SINGLE PI OF MONEY,THAT WHY WE ARE GIVE YOU EVERY FREEDOM AT ALL TIME AFTER YOU JOIN US";
 color:red;
+
 }
 
 .founder
@@ -47,13 +48,13 @@ color:red;
   width: 100%;
   height: 10%;
   color:white;
-  margin-bottom: 15px;
-
+  margin-bottom: 30px;
+ font-size: 12px;
 }
 
 .founder img
 {
-width: 100%;
+width: 90%;
 height: 100%;
  flex:1;
  margin-left: 15px;
@@ -229,6 +230,7 @@ left: -3%;;
 {
 
   overflow: hidden;
+
 }
 
 
@@ -286,13 +288,6 @@ padding-top: 30px;
   width: 99%;
   height: 7%;
   z-index: 1;
-
-
-
-
-
-
-
 
 }
 
