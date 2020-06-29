@@ -38,7 +38,7 @@ $result22=mysqli_query($con,$qry2223);
 <body>
 
 
-	<div class="header">
+	<!-- <div class="header">
 
             <div class="left">
                   <i class="fas fa-angle-double-right" onclick="openslidefunction()" style="color:white;"></i>
@@ -57,7 +57,7 @@ $result22=mysqli_query($con,$qry2223);
                     <img src="logo.png.jpg" alt="">
    </div>
 
-  </div>
+  </div> -->
 
 
 
@@ -322,7 +322,7 @@ include 'scrollerslider.php';
 </div>
 
 
-<!-- <div class="writequestion" style="display:none;">
+<div class="writequestion">
 
 <form class="" action="#" method="post">
 
@@ -333,7 +333,7 @@ include 'scrollerslider.php';
 
 </form>
 
-</div> -->
+</div>
 
 
 <div class="extraparts" style="margin-top:10%;margin-bottom:0%">
