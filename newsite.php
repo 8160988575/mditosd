@@ -96,6 +96,13 @@ background-image: linear-gradient(to right, #D1913C 0%, #FFD194 100%);
 
 	 }
 
+.yup::after
+{
+ content: 'Some Answer Have to Be in YES/NO Only Like Wise :Yes  OR   NO, You can use capital or small';
+ color:red;
+
+}
+
 
 
   </style>
@@ -107,18 +114,24 @@ background-image: linear-gradient(to right, #D1913C 0%, #FFD194 100%);
 
 	<header>
 
-     <h1 style="text-align:center;padding:15px;color:white;margin:15px;border-radius:15px;">Adding New Subject</h1>
+     <h1 style="text-align:center;padding:15px;color:white;margin:15px;border-radius:15px;border:1px solid black;">Add New Site</h1>
 
 	</header>
 
-<section>
+<section class="yup">
 
   <form class="" action="newsite.php" method="post" enctype="multipart/form-data">
-   <input type="text"  name="name"  placeholder="Subject Name">
-   <input type="text"   name="discription" placeholder="discription" >
-	 <input type="text"   name="author" placeholder="Author Name" >
-   <input type="text"   name="userid" placeholder="User Id" >
-   <input type="text"   name="password" placeholder="Password" >
+   <input type="text"  name="name"  placeholder="Site Name">
+   <input type="text"   name="discription" placeholder="Location" >
+   <input type="text"   name="discription2" placeholder="2BHK-Yes/No" >
+   <input type="text"   name="discription2" placeholder="3BHK-Yes/No" >
+   <input type="text"   name="discription2" placeholder="4BHK-Yes/No" >
+    <input type="text"   name="discription2" placeholder="Flat-Yes/No" >
+     <input type="text"   name="discription2" placeholder="Bunglow-Yes/No" >
+          <input type="text"   name="discription2" placeholder="Shops-Yes/No" >
+	 <input type="text"   name="author" placeholder="Author Name"  value = "pass" style="display:none">
+   <input type="text"   name="userid" placeholder="User Id"  value = "pass" style="display:none">
+   <input type="text"   name="password" placeholder="Password"  value = "pass" style="display:none">
 	Select Profile Site Photo: <input type="file" name="file" value="" >
 	 <input type="submit" name="submit" value="Confirm">
 	</form>

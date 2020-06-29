@@ -59,7 +59,15 @@ $result22=mysqli_query($con,$qry2223);
 
   </div> -->
 
+<div class="newheaderpart">
+	<?php
 
+   include 'newheader.php';
+
+
+	 ?>
+
+</div>
 
 
 
@@ -164,7 +172,8 @@ $result22=mysqli_query($con,$qry2223);
      <div class="before">     <a href="finallogin.php"><i class="fas fa-user-circle"></i></a><div class="login"><a href="finallogin.php"><?php if(isset($_COOKIE['name'])){echo $_COOKIE['name'];}else {  echo "Login/SignUp";} ?></a></div></div>
      <div class="after">   <i class="fab fa-phoenix-framework"></i><a href="addingnew.php">Owner's</a></div>
      <div class="after">    <i class="fas fa-concierge-bell"></i><a href="weserve.php">We Serve</a></div>
-     <div class="after">    <i class="fas fa-layer-group"></i><a href="future.php">Demamd Us...</a></div>
+		 <div class="after">    <i class="fas fa-file-signature"></i><a href="enquiry.php">Fill Enquiry</a></div>
+		 <div class="after">    <i class="fas fa-layer-group"></i><a href="future.php">Demamd Us...</a></div>
      <!-- <div class="after">    <i class="fab fa-viber"></i>  <a href="help.html">Help</a></div> -->
      <div class="after">    <i class="far fa-dizzy"></i>  <a href="moreinfo.php">About</a></div>
 

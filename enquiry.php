@@ -109,9 +109,11 @@ $result=mysqli_query($con,$qry);
    width:50%;
 
    text-align: center;
-
+ background-color: gray;
    padding: 5px;
    margin-left: 25%;
+   border:1px solid black;
+   color:white;
 
 
 
@@ -136,110 +138,43 @@ $result=mysqli_query($con,$qry);
 
   <div class="edittopicinfo">
 
-   <p>Edit Information Of Site Here!!</p>
+   <p>Edit Information Of Subject Here!!</p>
 
 
-  <form class="" action="editsubinfo.php" method="post">
+  <form class="" action="enquiry.php" method="post" style="color:white;">
 
-    <input type="text" name="tname" value="<?php  echo $sname;  ?>">
-    <input type="text" name="tdiscription" value="<?php  echo $sdiscription;  ?>">
-    <input type="submit" name="submit" value="Comfirm">
+    <input type="text" name="name" value="" placeholder="Name" required>
+  <input type="text" name="number" value="" placeholder="Number" required>
+  <input type="text" name="interest" value="" placeholder="Watching For..." required>
+  <input type="text" name="looked" value="" placeholder="Looked At..." required>
+  <input type="text" name="budget" value="" placeholder="Budget" required>
+  <input type="submit" name="submit" value="Confirm">
 
   </form>
 
   </div>
 </div>
 
-<a href="editsubinfo.php?name=delete"><p style="text-align:center;color:red;font-weight:bold">Delete This Hole Site</p></a>
-
 </body>
 </html>
-
 <?php
 
+if (isset($_POST['submit'])) {
 
-if(isset($_POST['submit'])) {
-
-
-
-  $name = str_replace("'","\'",$_POST['tname']);
-  $discription = str_replace("'","\'",$_POST['tdiscription']);
+     // $con=mysqli_connect('localhost','root','harsh','mstudy');
 
 
-  $qry="update `mstudy2` set `subname`='".$name."' where `sid`='".$_SESSION['sid']."'";
-    $run=mysqli_query($con,$qry);
 
-  $qry="update `mstudy2` set `discription`='".$discription."' where `sid`='".$_SESSION['sid']."'";
-    $run=mysqli_query($con,$qry);
+     //
+     // $yupping="INSERT INTO  `".newenquiry."`(`name`,`number`,`looked`,`interest`,`budget`) VALUES ('$question','$answer','qanda','".$_SESSION['tid']."')";
+     //
+     //     $run=mysqli_query($con,$yupping);
 
-    header('Location:mainpage.php');
+
+
+ echo "Trial is Success";
+
 
 }
-
- ?>
-
-
-
- <?php
-if (isset($_GET['name'])) {
-
-
-
 
 ?>
-<script>
-
-if(confirm("Once Deleted Can't Be Recovered!"))
-{
-
-window.location = "editsubinfo.php?finaldelete=yes";
-
-}
-
-else {
-
-  window.location = "editsubinfo.php";
-
-}
-
-</script>
-
-<?php   } ?>
-
-
-
-
-
- <?php
-if (isset($_GET['finaldelete'])) {
-
-
-
-
-
-  $table = $_SESSION['sid']."topic";
-  $table2 = $_SESSION['sid']."photo";
-  $table22 = $_SESSION['sid']."data";
-
-
-
-
-
-    $qry2="DELETE  FROM `mstudy2` where `sid`='".$_SESSION['sid']."' ";
-    $result=mysqli_query($con,$qry2);
-
-    $qry22="drop table `".$table."`";
-    $result=mysqli_query($con,$qry22);
-
-    $qry223="drop table `".$table2."`";
-    $result=mysqli_query($con,$qry223);
-
-    $qry2234="drop table `".$table22."`";
-    $result=mysqli_query($con,$qry2234);
-
-   header('Location:addingtotopic0.php');
-
-}
-
-
- ?>

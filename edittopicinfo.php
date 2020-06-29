@@ -109,7 +109,7 @@ $result=mysqli_query($con,$qry);
 
   <div class="edittopicinfo">
 
-   <p>Edit Information Of Topic Here!!</p>
+   <p>Edit Information Here!!</p>
 
 
   <form class="" action="edittopicinfo.php" method="post">

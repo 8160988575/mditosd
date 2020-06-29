@@ -21,7 +21,7 @@
 
  <div class="newheader">
    <div class="newleft">
-         <i class="fas fa-angle-double-right" onclick="openslidefunction()" style="color:black;"></i>
+         <i class="fas fa-angle-double-right" onclick="openslidefunction()" style="color:white;"></i>
    </div>
 
    <div class="newmiddle">
@@ -31,7 +31,7 @@
              <li class="notice">Name Of Assoc.</li>
 
 
-             <li class="search"><a href="mpagesearching.php"><i class="fa fa-search" aria-hidden="true" style="margin-right:5%;"></i>Search Here!!</li></a>
+             <li class="search" style="text-shadow:none;  text-shadow: -3px 2px 2px rgba(0, 0, 0, 0.5);"><a href="mpagesearching.php"><i class="fa fa-search" aria-hidden="true" style="margin-right:5%;"></i>Search Here!!</li></a>
 
       </ul>
    </div>

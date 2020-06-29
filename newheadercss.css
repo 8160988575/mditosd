@@ -18,7 +18,7 @@
 {
 
   flex:1;
-  background-color: red;
+  /* background-color: red; */
 
   align-items: center;
   justify-content: center;
@@ -35,6 +35,7 @@
  /* margin-top: 40%; */
   display: grid;
   font-size: 40px;
+   text-shadow: -3px 6px 1px rgba(0, 0, 0, 0.5);
 
 
 
@@ -44,7 +45,7 @@
 {
 
  flex:3;
- background-color: green;
+ /* background-color: green; */
 
 height: 100%;
 }
@@ -64,10 +65,13 @@ justify-content:center;
 
 .newmiddle li
 {
+  flex: 1;
 margin: auto;
 padding:2% 0% 2% 0%;
 white-space:nowrap;
 text-decoration: none;
+color: white;
+ text-shadow: -8px 2px 2px rgba(0, 0, 0, 0.5);
 
 
 
@@ -79,6 +83,7 @@ text-decoration: none;
 {
 
   text-decoration: none;
+  color: black;
 
 }
 
@@ -114,7 +119,7 @@ text-decoration: none;
 {
 
   flex:1;
-  background-color: gray;
+  /* background-color: gray; */
 
 }
 
